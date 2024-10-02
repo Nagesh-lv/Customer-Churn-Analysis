@@ -29,9 +29,9 @@ Exploratory Data Analysis (EDA): Understanding the dataset, identifying key tren
 Feature Engineering: Creating new features that might improve the predictive model's performance.
 Model Development: Building machine learning models to predict churn, focusing on accuracy, precision, recall, and AUC.
 Here 3 models are built using combinations of features for input:
-    1. using ‘tenure’ as the feature and ‘Churn’ as the dependent/target column
-    2. using ‘tenure’ as the feature and ‘Churn’ as the dependent/target column with a dropout layer each after input and hidden layers.
-    3. using ‘Tenure’, ’Monthly Charges’ & ‘Total Charges’ as the features and ‘Churn’ as the dependent/target column
+#### 1. using ‘tenure’ as the feature and ‘Churn’ as the dependent/target column
+#### 2. using ‘tenure’ as the feature and ‘Churn’ as the dependent/target column with a dropout layer each after input and hidden layers.
+#### 3. using ‘Tenure’, ’Monthly Charges’ & ‘Total Charges’ as the features and ‘Churn’ as the dependent/target column
 
 ### Model Evaluation: Evaluating the model on performance metrics and tuning it for better results.
 Insights & Recommendations: Providing actionable insights based on model predictions and analysis to reduce churn.
